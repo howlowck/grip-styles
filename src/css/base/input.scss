@@ -1,0 +1,29 @@
+input[type="text"] {
+    font-size: 1em;
+    padding: 10px;
+    border: 3px solid $gray20;
+    color: $gray80;
+    &:focus{
+        outline: 0;
+        border: 3px solid $teal;
+    }
+    &.error {
+        border: 3px solid $darkRed;
+        & + .error-icon::after {
+            display: inline;
+            margin-left: -30px;
+            top: 3px;
+            @include icon;
+            position: relative;
+            font-family: "icomoon", sans-serif;
+            content: "\e117";
+            color: $darkRed;
+            font-size: 1.2em;
+            z-index: 1;
+        }
+    }
+}
+
+.error-icon {
+//    display: none;
+}

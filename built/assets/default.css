@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../../lib/icomoon/fonts/icomoon.eot?-4gqbqs");
+  src: url("../../lib/icomoon/fonts/icomoon.eot?#iefix-4gqbqs") format("embedded-opentype"), url("../../lib/icomoon/fonts/icomoon.woff?-4gqbqs") format("woff"), url("../../lib/icomoon/fonts/icomoon.ttf?-4gqbqs") format("truetype"), url("../../lib/icomoon/fonts/icomoon.svg?-4gqbqs#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+h1 {
+  font-weight: lighter;
+  font-size: 3em; }
+
+h2 {
+  font-weight: normal;
+  font-size: 2em; }
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5em; }
+
+h4 {
+  font-weight: bolder;
+  font-size: 1.2em; }
+
+input[type="text"] {
+  font-size: 1em;
+  padding: 10px;
+  border: 3px solid #d1d3d4;
+  color: #414042; }
+  input[type="text"]:focus {
+    outline: 0;
+    border: 3px solid #224f5b; }
+  input[type="text"].error {
+    border: 3px solid #cc2230; }
+    input[type="text"].error + .error-icon::after {
+      display: inline;
+      margin-left: -30px;
+      top: 3px;
+      font-family: 'icomoon';
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      /* Better Font Rendering =========== */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      position: relative;
+      font-family: "icomoon", sans-serif;
+      content: "\e117";
+      color: #cc2230;
+      font-size: 1.2em;
+      z-index: 1; }
+
+.color-container {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px; }
+  .color-container .color {
+    width: 100%;
+    height: 100%; }
+    .color-container .color.super {
+      height: 20%; }
+    .color-container .color.main {
+      height: 80%; }
+    .color-container .color.white {
+      background-color: #ffffff; }
+    .color-container .color.gray20 {
+      background-color: #d1d3d4; }
+    .color-container .color.gray40 {
+      background-color: #bcbec0; }
+    .color-container .color.gray60 {
+      background-color: #58595b; }
+    .color-container .color.gray80 {
+      background-color: #414042; }
+    .color-container .color.red {
+      background-color: #eb2127; }
+    .color-container .color.darkRed {
+      background-color: #cc2230; }
+    .color-container .color.teal {
+      background-color: #224f5b; }
+    .color-container .color.darkTeal {
+      background-color: #1b414e; }
+
+/*# sourceMappingURL=default.css.map */
