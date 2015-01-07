@@ -47,3 +47,25 @@ h4 {
     font-weight: bolder;
     font-size: 1.2em;
 }
+
+.solid-highlight {
+    font-weight: lighter;
+    font-size: 2em;
+    background-color: $red;
+    color: white;
+    display: inline;
+    padding: 2px;
+    line-height: 1.5em;
+    position: relative;
+    left: 0.5em;
+    box-shadow: 0.5em 0 0 $red, -0.5em 0 0 $red;
+}
+
+.line-highlight {
+    border: solid $gray80 3px;
+    display: inline-block;
+    color: $gray80;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    padding: 5px 20px;
+}

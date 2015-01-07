@@ -24,6 +24,26 @@ h4 {
   font-weight: bolder;
   font-size: 1.2em; }
 
+.solid-highlight {
+  font-weight: lighter;
+  font-size: 2em;
+  background-color: #eb2127;
+  color: white;
+  display: inline;
+  padding: 2px;
+  line-height: 1.5em;
+  position: relative;
+  left: 0.5em;
+  box-shadow: 0.5em 0 0 #eb2127, -0.5em 0 0 #eb2127; }
+
+.line-highlight {
+  border: solid #414042 3px;
+  display: inline-block;
+  color: #414042;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  padding: 5px 20px; }
+
 input[type="text"] {
   font-size: 1em;
   padding: 10px;
@@ -55,6 +75,41 @@ input[type="text"] {
       font-size: 1.2em;
       z-index: 1; }
 
+button, a.btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  border-style: solid;
+  border-width: 3px;
+  font-style: italic;
+  cursor: pointer;
+  background-color: white;
+  border-color: #224f5b;
+  outline-color: #224f5b;
+  color: #224f5b; }
+  button:hover, a.btn:hover {
+    background-color: #224f5b;
+    color: white;
+    transition: background-color 0.3s, color 0.3s; }
+  button.alarm, a.btn.alarm {
+    background-color: white;
+    border-color: #cc2230;
+    outline-color: #cc2230;
+    color: #cc2230; }
+    button.alarm:hover, a.btn.alarm:hover {
+      background-color: #cc2230;
+      color: white; }
+  button.light, a.btn.light {
+    background-color: transparent;
+    border-color: #ffffff;
+    outline-color: #ffffff;
+    color: #ffffff; }
+    button.light:hover, a.btn.light:hover {
+      background-color: #ffffff;
+      color: #58595b; }
+
+a.btn {
+  text-decoration: none; }
+
 .color-container {
   width: 100px;
   height: 100px;
@@ -68,6 +123,7 @@ input[type="text"] {
     .color-container .color.main {
       height: 80%; }
     .color-container .color.white {
+      outline: solid #d1d3d4 2px;
       background-color: #ffffff; }
     .color-container .color.gray20 {
       background-color: #d1d3d4; }
@@ -85,5 +141,10 @@ input[type="text"] {
       background-color: #224f5b; }
     .color-container .color.darkTeal {
       background-color: #1b414e; }
+
+.dark-container {
+  padding: 10px;
+  margin: 12px 12px 12px 0;
+  background-color: #58595b; }
 
 /*# sourceMappingURL=default.css.map */

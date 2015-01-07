@@ -16,6 +16,7 @@
             height: 80%;
         }
         &.white {
+            outline: solid $gray20 2px;
             background-color: $white;
         }
         &.gray20 {
@@ -43,4 +44,10 @@
             background-color: $darkTeal;
         }
     }
+}
+
+.dark-container {
+    padding: 10px;
+    margin: 12px 12px 12px 0;
+    background-color: $gray60;
 }
